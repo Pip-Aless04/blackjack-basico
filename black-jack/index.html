@@ -16,15 +16,15 @@
     <div class="row mt-2">
         <div class="col text-center" id="botones">
             <button id="btnRestart" class="btn btn-secondary" >Nuevo juego</button>
-            <button id="btnPedir" class="btn btn-primary">Pedir carta</button>
-            <button id="btnDetener" class="btn btn-danger">Detener</button>
+            <button id="btnPedir" disabled="disabled" class="btn btn-primary">Pedir carta</button>
+            <button id="btnDetener" disabled="disabled" class="btn btn-danger">Detener</button>
         </div>
     </div>
     <!--JUGADOR-->
     <div class="row container ">
         <div class="col">
             <h1>Jugador - <small>0</small></h1>
-            <div id="jugador-cartas">
+            <div id="jugador-cartas" class="divCartas">
                 <!--<img class="carta" src="assets/cartas/10C.png" alt=""> -->
             </div>
         </div>
@@ -33,7 +33,7 @@
     <div class="row container mt-5">
         <div class="col">
             <h1>Computadora - <small>0</small></h1>
-            <div id="compuradora-cartas">
+            <div id="compuradora-cartas" class="divCartas">
                 <!--<img class="carta" src="assets/cartas/2C.png" alt="">-->
             </div>
         </div>
